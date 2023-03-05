@@ -28,11 +28,6 @@ export default function Home() {
     }
   }, [id])
 
-  useEffect(() => {
-    const audio = document.getElementById("audio");
-    audio.play();
-  }, [])
-
   const [days, hours, minutes, seconds] = useCountdown(1678611600000)
   return (
     <>
@@ -67,6 +62,8 @@ export default function Home() {
                 <button type="button" onClick={() => {
                   setIsLandingPage(false);
                   window.scrollTo(0, 0);
+                  const audio = document.createElement('audio');
+                  audio.play();
                 }} className="btn btn-primary text-white">Buka
                   Undangan</button>
               </div>
