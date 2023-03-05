@@ -28,6 +28,11 @@ export default function Home() {
     }
   }, [id])
 
+  useEffect(() => {
+    const audio = document.getElementById("audio");
+    audio.play();
+  }, [])
+
   const [days, hours, minutes, seconds] = useCountdown(1678611600000)
   return (
     <>
@@ -62,7 +67,7 @@ export default function Home() {
                 <button type="button" onClick={() => {
                   setIsLandingPage(false);
                   window.scrollTo(0, 0);
-                }} class="btn btn-primary text-white">Buka
+                }} className="btn btn-primary text-white">Buka
                   Undangan</button>
               </div>
               <div className="text-center">
@@ -188,7 +193,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-4 mx-auto text-center d-flex flex-column align-items-center" style={{ zIndex: 1 }}>
-                  <iframe className='w-100 rounded' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.923667450192!2d106.65097114968135!3d-6.656382995163365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d1ecfa70dbe3%3A0xb0e2b399bd6513f0!2sUjang%20Syafrudin!5e0!3m2!1sen!2sid!4v1678012283124!5m2!1sen!2sid" height="300" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe className='w-100 rounded' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.923667450192!2d106.65097114968135!3d-6.656382995163365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d1ecfa70dbe3%3A0xb0e2b399bd6513f0!2sUjang%20Syafrudin!5e0!3m2!1sen!2sid!4v1678012283124!5m2!1sen!2sid" height="300" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   <a className="btn btn-primary mt-3 btn-block text-white" href="https://goo.gl/maps/8P8H39obT5ddakfi7" role="button">Lihat
                     Lokasi</a>
                 </div>
@@ -260,9 +265,11 @@ export default function Home() {
             </div>
           </footer>
         </div>
-        <audio autoPlay id="audio">
-          <source src="https://septianfauzi.com/assets/undangan/music/AThousandYear.mp3" type="audio/mpeg" />
-        </audio>
+        <div>
+          <audio autoPlay id="audio">
+            <source src="https://septianfauzi.com/assets/undangan/music/AThousandYear.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
       </div >
     </>
   )
