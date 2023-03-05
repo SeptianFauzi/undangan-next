@@ -62,7 +62,7 @@ export default function Home() {
                 <button type="button" onClick={() => {
                   setIsLandingPage(false);
                   window.scrollTo(0, 0);
-                  const audio = document.createElement('audio');
+                  const audio = document.getElementById('audio');
                   audio.play();
                 }} className="btn btn-primary text-white">Buka
                   Undangan</button>
@@ -263,7 +263,7 @@ export default function Home() {
           </footer>
         </div>
         <div>
-          <audio autoPlay id="audio">
+          <audio id="audio">
             <source src="https://septianfauzi.com/assets/undangan/music/AThousandYear.mp3" type="audio/mpeg" />
           </audio>
         </div>
