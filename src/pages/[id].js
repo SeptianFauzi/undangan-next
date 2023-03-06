@@ -121,7 +121,7 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 fh5co-heading offset-lg-2 text-center animate-box">
-                  <h2 className="text-main h4">Assalamualaikum</h2>
+                  <h2 className="text-main h4">Assalamualaikum Wr. Wb.</h2>
                   <p>Tanpa mengurangi rasa hormat. Kami bermaksud mengundang Bapak/Ibu/Saudara/i
                     untuk hadir
                     dalam acara
@@ -252,15 +252,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <footer id="fh5co-footer" role="contentinfo">
-            <div className="container">
-              <div className="row copyright">
-                <div className="col-12 text-center">
-                  <small className="block">Septian Fauzi Made With <i className="fa fa-heart"></i> &copy;2023</small>
-                </div>
+          <div className="fh5co-bg bg-1" style={{ height: "300px" }}>
+            <div className="overlay"></div>
+            <div className="container position-relative" style={{ paddingTop: 50 }}>
+              <div className="row d-flex flex-column justify-content-between align-items-between">
+                <p className='text-white text-center'>Atas kehadiran dan do’a restu dari Bapak/Ibu/Saudara/i sekalian, kami mengucapkan Terima Kasih.
+                </p>
+                <h1 className=" sacrameto text-white text-center">Wassalamu’alaikum Wr. Wb.</h1>
+                <small className="block text-center text-white" style={{ marginTop: 100 }}>Septian Fauzi Made With <i className="fa fa-heart"></i> &copy;2023</small>
               </div>
             </div>
-          </footer>
+          </div>
         </div>
         <div>
           <audio id="audio">
@@ -268,6 +270,7 @@ export default function Home() {
           </audio>
         </div>
       </div >
+
     </>
   )
 }
