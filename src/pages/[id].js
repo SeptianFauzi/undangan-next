@@ -205,7 +205,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12 my-1 px-1">
                   <Image className="rounded img-fluid"
-                    src="https://septianfauzi.com/assets/undangan/images/GallleryVertical1.jpg" alt='No Image' width={1000} height={1000} />
+                    src="https://septianfauzi.com/assets/undangan/images/GallleryVertical10.jpg" alt='No Image' width={1000} height={1000} />
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12 my-1 d-flex flex-column  px-1 justify-content-center" >
                   <Image className="rounded img-fluid my-1"
