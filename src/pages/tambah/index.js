@@ -45,9 +45,9 @@ export default function Tambah() {
                     <button type="submit" onClick={() => postData()} class="btn btn-primary text-white">Generate URL</button>
                     <div>
                         {url && <>
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-lg-flex flex-sm-column justify-content-between align-items-center">
                                 <p className='m-0'>URL : {url}</p>
-                                <button onClick={() => navigator.clipboard.writeText(url).then(() => alert("Berhasil Di Copy"))} class="btn btn-primary text-white"><i className="fa fa-copy"></i></button>
+                                <button onClick={() => navigator.clipboard.writeText(url).then(() => alert("Berhasil Di Copy"))} class="btn btn-primary text-white me-3"><i className="fa fa-copy"></i></button>
                                 <a href={`whatsapp://send?text=` + encodeURIComponent(`
 السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 

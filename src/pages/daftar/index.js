@@ -28,9 +28,9 @@ export default function Daftar() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <div className="w-100 container d-flex justify-content-center text-center align-items-center">
-                <div className="d-flex flex-column justify-content-center align-items w-75">
+                <div className="d-flex flex-column justify-content-center align-items w-100 overflow-scroll">
                     <p className='h3'>Daftar Undangan</p>
-                    <table class="table table-striped">
+                    <table class="table table-striped mx-4">
                         <thead>
                             <tr>
                                 <th scope="col">No</th>
