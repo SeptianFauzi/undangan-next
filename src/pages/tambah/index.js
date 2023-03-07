@@ -19,7 +19,7 @@ export default function Tambah() {
             });
             const json = await data.json();
             if (json.data) {
-                setUrl("http://undangan.septianfauzi.com/" + json.data.ID)
+                setUrl("https://undangan.septianfauzi.com/" + json.data.ID)
             } else {
                 setUrl("Penyimpanan Gagal")
             }
