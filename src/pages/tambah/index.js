@@ -76,31 +76,31 @@ Terima kasih banyak atas perhatiannya
 
 وَ السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`).then(() => alert("Berhasil Di Copy"))} class="btn btn-primary text-white me-3"><i className="fa fa-copy"></i></button>
                                 <a href={`whatsapp://send?text=` + encodeURIComponent(`
-                                السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 
-                                Dengan memohon rahmat Allah SWT, perkenankan kami mengundang Bapak / Ibu / Saudara / i  untuk menghadiri pernikahan kami.
+Dengan memohon rahmat Allah SWT, perkenankan kami mengundang Bapak / Ibu / Saudara / i  untuk menghadiri pernikahan kami.
 
-                                *Siti Nanda Nurdiani & Septian Fauzi*
+*Siti Nanda Nurdiani & Septian Fauzi*
 
-                                *Akad*
-                                Akan dilaksanakan pada :
-                                Hari, Tanggal : Minggu, 12 Maret 2023
-                                Jam : 09:00
-                                Lokasi : Kp. Sirnasari RT. 003 RW. 002 Desa Gunung Sari Kecamatan Pamijahan Kabupaten Bogor
+*Akad*
+Akan dilaksanakan pada :
+Hari, Tanggal : Minggu, 12 Maret 2023
+Jam : 09:00
+Lokasi : Kp. Sirnasari RT. 003 RW. 002 Desa Gunung Sari Kecamatan Pamijahan Kabupaten Bogor
 
-                                *Resepsi*
-                                Akan dilaksanakan pada :
-                                Hari, Tanggal : Minggu, 12 Maret 2023
-                                Jam : 13:00 s/d selesai
-                                Lokasi : Kp. Sirnasari RT. 003 RW. 002 Desa Gunung Sari Kecamatan Pamijahan Kabupaten Bogor
+*Resepsi*
+Akan dilaksanakan pada :
+Hari, Tanggal : Minggu, 12 Maret 2023
+Jam : 13:00 s/d selesai
+Lokasi : Kp. Sirnasari RT. 003 RW. 002 Desa Gunung Sari Kecamatan Pamijahan Kabupaten Bogor
 
-                                Berikut link undangan kami, untuk info lengkap dari acara bisa kunjungi :
+Berikut link undangan kami, untuk info lengkap dari acara bisa kunjungi :
 
-                                ${url}
+${url}
 
-                                Merupakan suatu kebahagiaan bagi kami apabila Bapak /Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.
+Merupakan suatu kebahagiaan bagi kami apabila Bapak /Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.
 
-                                Terima kasih banyak atas perhatiannya
+Terima kasih banyak atas perhatiannya
 
 وَ السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)}><i class="fa-solid fa-paper-plane " aria-hidden="true"></i></a>
                             </div>
