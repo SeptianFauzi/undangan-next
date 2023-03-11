@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useCountdown } from '../component/useCountDown'
 
 export default function Home() {
-  const [days, hours, minutes, seconds] = useCountdown(1678611600000)
+  const [days, hours, minutes, seconds] = useCountdown(1678586400000)
   return (
     <>
       <Head>

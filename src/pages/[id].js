@@ -28,7 +28,7 @@ export default function Home() {
     }
   }, [id])
 
-  const [days, hours, minutes, seconds] = useCountdown(1678611600000)
+  const [days, hours, minutes, seconds] = useCountdown(1678586400000)
   return (
     <>
       <Head>
